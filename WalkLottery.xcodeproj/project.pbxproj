@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADAC412571382C062D3FCA9 /* WalkPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D409921E91C500761E156B9 /* WalkPickerTests.swift */; };
+		656DC4AA9315F1657433B423 /* WalkLotteryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A569E52C0A9EAD02B530B5 /* WalkLotteryApp.swift */; };
+		67C68090A00A62473D3FD1E2 /* WalkLotteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15763B8783145AC2F4CC9297 /* WalkLotteryUITests.swift */; };
+		6AB8007C7A68F9BE231600FF /* WalkIdea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183910B0DE243D010DD85081 /* WalkIdea.swift */; };
+		C1D313D0770E33B9A93917D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160DB4C5C1378BEED38C3D12 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83DB68355C009FBFB4BD879D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2EBD2BB04A062E338E8CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB83B6C45F12DF598A34321;
+			remoteInfo = WalkLottery;
+		};
+		C469FACA6BAD30B2DE3D8E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2EBD2BB04A062E338E8CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB83B6C45F12DF598A34321;
+			remoteInfo = WalkLottery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EB0D125A55A3E4B19978D3 /* WalkLotteryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WalkLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15763B8783145AC2F4CC9297 /* WalkLotteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkLotteryUITests.swift; sourceTree = "<group>"; };
+		160DB4C5C1378BEED38C3D12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		183910B0DE243D010DD85081 /* WalkIdea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkIdea.swift; sourceTree = "<group>"; };
+		28A569E52C0A9EAD02B530B5 /* WalkLotteryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkLotteryApp.swift; sourceTree = "<group>"; };
+		3D409921E91C500761E156B9 /* WalkPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPickerTests.swift; sourceTree = "<group>"; };
+		4D49937158A603358438DE49 /* WalkLottery.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WalkLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		583E1B389ED165D09B099FF5 /* WalkLotteryUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WalkLotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8DD88DB9FAB18ABCBCCBD976 = {
+			isa = PBXGroup;
+			children = (
+				95EA97344825E9C68DC632B0 /* Sources */,
+				99A2EB01A57BA1F6E3A041E8 /* Tests */,
+				D3E25AA5EB1A20E128C1C928 /* UITests */,
+				9D710461570235E44B9E9E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95EA97344825E9C68DC632B0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				160DB4C5C1378BEED38C3D12 /* ContentView.swift */,
+				183910B0DE243D010DD85081 /* WalkIdea.swift */,
+				28A569E52C0A9EAD02B530B5 /* WalkLotteryApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		99A2EB01A57BA1F6E3A041E8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D409921E91C500761E156B9 /* WalkPickerTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		9D710461570235E44B9E9E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D49937158A603358438DE49 /* WalkLottery.app */,
+				08EB0D125A55A3E4B19978D3 /* WalkLotteryTests.xctest */,
+				583E1B389ED165D09B099FF5 /* WalkLotteryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E25AA5EB1A20E128C1C928 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				15763B8783145AC2F4CC9297 /* WalkLotteryUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB83B6C45F12DF598A34321 /* WalkLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CD1B67C67CB2239E3AA65E /* Build configuration list for PBXNativeTarget "WalkLottery" */;
+			buildPhases = (
+				6D5BF2886E0120DD11855664 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalkLottery;
+			packageProductDependencies = (
+			);
+			productName = WalkLottery;
+			productReference = 4D49937158A603358438DE49 /* WalkLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C0DB0703CAB81F2AC8EBFCD /* WalkLotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC872EBF0EC983FF6658E5C /* Build configuration list for PBXNativeTarget "WalkLotteryTests" */;
+			buildPhases = (
+				2C0FDCBF49A08CF840A823F4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DB73F2E8B4B361248D72E4 /* PBXTargetDependency */,
+			);
+			name = WalkLotteryTests;
+			packageProductDependencies = (
+			);
+			productName = WalkLotteryTests;
+			productReference = 08EB0D125A55A3E4B19978D3 /* WalkLotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C05569721599EF47128E6AAE /* WalkLotteryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A16D618D4E9D76484ED33C6 /* Build configuration list for PBXNativeTarget "WalkLotteryUITests" */;
+			buildPhases = (
+				B647B850E5D85E47A58120DE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CC76489789DB409DC6A38B /* PBXTargetDependency */,
+			);
+			name = WalkLotteryUITests;
+			packageProductDependencies = (
+			);
+			productName = WalkLotteryUITests;
+			productReference = 583E1B389ED165D09B099FF5 /* WalkLotteryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F2EBD2BB04A062E338E8CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C05569721599EF47128E6AAE = {
+						TestTargetID = 1DB83B6C45F12DF598A34321;
+					};
+				};
+			};
+			buildConfigurationList = 51D94204F615C31CE49248C0 /* Build configuration list for PBXProject "WalkLottery" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8DD88DB9FAB18ABCBCCBD976;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9D710461570235E44B9E9E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB83B6C45F12DF598A34321 /* WalkLottery */,
+				8C0DB0703CAB81F2AC8EBFCD /* WalkLotteryTests */,
+				C05569721599EF47128E6AAE /* WalkLotteryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C0FDCBF49A08CF840A823F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADAC412571382C062D3FCA9 /* WalkPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5BF2886E0120DD11855664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D313D0770E33B9A93917D0 /* ContentView.swift in Sources */,
+				6AB8007C7A68F9BE231600FF /* WalkIdea.swift in Sources */,
+				656DC4AA9315F1657433B423 /* WalkLotteryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B647B850E5D85E47A58120DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C68090A00A62473D3FD1E2 /* WalkLotteryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17CC76489789DB409DC6A38B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB83B6C45F12DF598A34321 /* WalkLottery */;
+			targetProxy = 83DB68355C009FBFB4BD879D /* PBXContainerItemProxy */;
+		};
+		37DB73F2E8B4B361248D72E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB83B6C45F12DF598A34321 /* WalkLottery */;
+			targetProxy = C469FACA6BAD30B2DE3D8E00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29E6300D944BF8A1CD0F0CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "散步靈感";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.homework.WalkLottery;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52411264A4409A1B0039BD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.homework.WalkLotteryUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkLottery;
+			};
+			name = Release;
+		};
+		5A4A34903DC8526C96D3EE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.homework.WalkLotteryUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkLottery;
+			};
+			name = Debug;
+		};
+		67E49F386B703B2015E48909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B712B371CBC546945421B36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.homework.WalkLotteryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkLottery.app/WalkLottery";
+			};
+			name = Debug;
+		};
+		C545E513841C6FA531FB9F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "散步靈感";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.homework.WalkLottery;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D032EB5891119A185ADD3804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EC2FDF5CB923528AE6771C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.homework.WalkLotteryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkLottery.app/WalkLottery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51D94204F615C31CE49248C0 /* Build configuration list for PBXProject "WalkLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E49F386B703B2015E48909 /* Debug */,
+				D032EB5891119A185ADD3804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EC872EBF0EC983FF6658E5C /* Build configuration list for PBXNativeTarget "WalkLotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B712B371CBC546945421B36D /* Debug */,
+				EC2FDF5CB923528AE6771C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A16D618D4E9D76484ED33C6 /* Build configuration list for PBXNativeTarget "WalkLotteryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4A34903DC8526C96D3EE2F /* Debug */,
+				52411264A4409A1B0039BD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0CD1B67C67CB2239E3AA65E /* Build configuration list for PBXNativeTarget "WalkLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C545E513841C6FA531FB9F3B /* Debug */,
+				29E6300D944BF8A1CD0F0CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F2EBD2BB04A062E338E8CC9 /* Project object */;
+}
