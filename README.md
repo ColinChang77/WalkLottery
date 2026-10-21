@@ -33,5 +33,3 @@ xcodebuild test -project WalkLottery.xcodeproj -scheme WalkLottery \
 - `Sources/WalkLotteryApp.swift`：App 入口。
 - `Tests/WalkPickerTests.swift`：單元測試。
 - `UITests/WalkLotteryUITests.swift`：UI 測試及原生截圖附件。
-
-作業對照、文章稿與實際執行證據位於上一層 output 目錄。未發布 Medium，也未繳交 COOL。
